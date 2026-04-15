@@ -1,0 +1,33 @@
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.main-title{
+
+    font-size: large;
+    color: red;
+    font-weight: 600;
+}
+
+.map{
+
+    justify-content: center;
+    width: 30;
+    height: 30;
+
+}
+
+.wiki-link{
+
+    text-decoration: none;
+    color: green;
+    transition: 0.3s ease;
+}
+
+.wiki-link:hover{
+
+    color: orange;
+
+}
