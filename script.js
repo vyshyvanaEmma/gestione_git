@@ -4,3 +4,8 @@ L.tileLayer('https://openstreetmap.org{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; OpenStreetMap'
 }).addTo(map);
+
+aggiungiMonumenti(map);
+mostraStatisticheMonumenti();
+
+
