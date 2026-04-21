@@ -1,4 +1,3 @@
-// Array globale dei monumenti
 const monumenti = [
     { nome: "Colosseo", lat: 41.8902, lng: 12.4922 },
     { nome: "Pantheon", lat: 41.8986, lng: 12.4769 },
@@ -6,19 +5,20 @@ const monumenti = [
     { nome: "Castel Sant'Angelo", lat: 41.9031, lng: 12.4663 }
 ];
 
-
 function aggiungiMonumenti(mappa) {
     monumenti.forEach(m => {
-        L.marker([m.lat, m.lng]).addTo(mappa)
-            .bindPopup(m.nome);
+        L.marker([m.lat, m.lng]).addTo(mappa).bindPopup(m.nome);
     });
 }
 
+function mostraStatisticheMonumenti() {
+    alert("Numero di monumenti mostrati sulla mappa: " + monumenti.length);
+}
+
+function ottieniListaMonumenti() {
+    return monumenti; 
 function aggiungiMonumentoArray(monumento) {
     monumenti.push(monumento);
     console.log("Array aggiornato con successo:", monumenti);
 }
 
-function mostraStatisticheMonumenti() {
-    alert("Numero totale di monumenti sulla mappa: " + monumenti.length);
-}
