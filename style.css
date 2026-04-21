@@ -97,3 +97,27 @@ tr:hover {
 tr:last-child td {
     border-bottom: none;
 }
+#form-container {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+#monumento-form input {
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

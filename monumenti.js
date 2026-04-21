@@ -17,4 +17,8 @@ function mostraStatisticheMonumenti() {
 
 function ottieniListaMonumenti() {
     return monumenti; 
+function aggiungiMonumentoArray(monumento) {
+    monumenti.push(monumento);
+    console.log("Array aggiornato con successo:", monumenti);
 }
+
