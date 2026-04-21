@@ -1,4 +1,4 @@
-
+// Array globale dei monumenti
 const monumenti = [
     { nome: "Colosseo", lat: 41.8902, lng: 12.4922 },
     { nome: "Pantheon", lat: 41.8986, lng: 12.4769 },
@@ -14,7 +14,11 @@ function aggiungiMonumenti(mappa) {
     });
 }
 
+function aggiungiMonumentoArray(monumento) {
+    monumenti.push(monumento);
+    console.log("Array aggiornato con successo:", monumenti);
+}
 
 function mostraStatisticheMonumenti() {
-    alert("Numero di monumenti mostrati sulla mappa: " + monumenti.length);
+    alert("Numero totale di monumenti sulla mappa: " + monumenti.length);
 }
