@@ -11,7 +11,7 @@ body{
     font-weight: 600;
 }
 
-.map{
+#map{
 
     justify-content: center;
     width: 30;
