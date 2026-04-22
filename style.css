@@ -3,7 +3,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.div-title{
+.div-center{
 
     display: flex;
     justify-content: center; 
@@ -29,7 +29,7 @@ body{
 }
 
 .wiki-link{
-
+    padding-top: 5px;
     text-decoration: none;
     color: green;
     transition: 0.3s ease;
@@ -53,6 +53,15 @@ body{
     transition: background 0.3s ease;
     margin: 20px 0;
     display: block;
+    
+}
+
+.table-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #btn-tabella:hover {
@@ -77,7 +86,7 @@ table {
 
 
 td {
-    padding: 15px;
+    padding: 15px 60px 15px 60px;
     text-align: left;
     border-bottom: 1px solid #f2f2f2;
     color: #333;
